@@ -1,5 +1,5 @@
 {% set name = "checkstyle" %}
-{% set version = "10.17.0" %}
+{% set version = "10.18.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/checkstyle/{{ name }}/archive/{{ name }}-{{ version }}.tar.gz
-  sha256: 2cefb92dc87718cbd728727db7e4d861316a9be9894582dee9cb9263385d058e
+  sha256: 9f686a319814e5af9d5d502b7e563409fed7bb3534abdbdf68823877cf3dac3f
   folder: checkstyle
 
 build:
@@ -28,7 +28,7 @@ test:
 about:
   home: https://github.com/checkstyle/{{ name }}
   license: LGPL-2.1-or-later AND Apache-2.0
-  license_file: 
+  license_file:
     - checkstyle/LICENSE
     - checkstyle/LICENSE.apache20
     - checkstyle/target/generated-resources/licenses/
