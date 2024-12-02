@@ -16,7 +16,7 @@ tee ${PREFIX}/bin/checkstyle << EOF
 #!/bin/sh
 exec \${JAVA_HOME}/bin/java -jar \${CONDA_PREFIX}/libexec/checkstyle/checkstyle.jar "\$@"
 EOF
-chmode +x ${PREFIX}/bin/checkstyle
+chmod +x ${PREFIX}/bin/checkstyle
 
 tee ${PREFIX}/bin/checkstyle.cmd << EOF
 call %JAVA_HOME%\bin\java -jar %CONDA_PREFIX%\libexec\checkstyle\checkstyle.jar %*
