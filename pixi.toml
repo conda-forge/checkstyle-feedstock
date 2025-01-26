@@ -4,7 +4,7 @@
 
 [project]
 name = "checkstyle-feedstock"
-version = "3.45.2"
+version = "3.45.4"
 description = "Pixi configuration for conda-forge/checkstyle-feedstock"
 authors = ["@conda-forge/checkstyle"]
 channels = ["conda-forge"]
