@@ -1,5 +1,5 @@
 context:
-  version: "12.1.1"
+  version: "12.1.2"
 
 package:
   name: checkstyle
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/checkstyle/checkstyle/archive/checkstyle-${{ version }}.tar.gz
-  sha256: 09180ff7c4c5f0e0edd58f0665685d90ed22656dc1de30a099ece8d9c5c03232
+  sha256: dc4939da8caa99561300d794b5a9f986dd86941d55b529c1f52f194345781fbd
   target_directory: checkstyle
 
 build:
